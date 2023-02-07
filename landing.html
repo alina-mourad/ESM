@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Arab Regional Data Portal</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="shortcut icon" href="favicon.ico" />		
+		<link rel="stylesheet" href="https://use.typekit.net/xqa3koa.css" />
+		
+		<!--begin::Global-->
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/theme.css" rel="stylesheet" type="text/css" />
+		<!--end::Global-->
+	</head>
+
+	<body id="kt_body" data-bs-spy="scroll" data-bs-target="#kt_header_menu" data-bs-offset="200" class="bg-white position-relative">
+		
+		<div class="d-flex flex-column ">
+			
+			<header class="landing-header bg-dark pb-14 pt-10" data-kt-sticky="true" data-kt-sticky-name="landing-header" data-kt-sticky-offset="{default: '200px', lg: '300px'}">
+				<div class="container">
+					<div class="d-flex align-items-center justify-content-between flex-lg-grow-1">
+						<!--begin::Logo-->
+						<a href="index.html">
+							<div class="jss2489 active MuiBox-root css-hpgf8j d-flex" href="/">
+								<div class="d-flex">
+								<img src="assets/images/escwa-white.svg" height="90" class="jss2487   mt-3"></div>
+							<img alt="United Nations Regional Collaborative Platform" src="assets/images/ESM-light.ac089fe99a1a24ca57cdadf287d4c54a.svg" class="logo-default h-60px h-lg-80px ms-7" /></div>
+							<img alt="United Nations Regional Collaborative Platform" src="assets/images/ESM-light.ac089fe99a1a24ca57cdadf287d4c54a.svg" class="logo-sticky h-60px h-lg-60px" />
+						</a>
+						<!--end::Logo-->
+						<!--begin::Menu wrapper-->
+						<div class="d-lg-block" id="kt_header_nav_wrapper">
+							<div class="d-lg-block p-5 p-lg-0" data-kt-drawer="true" data-kt-drawer-name="header-menu" data-kt-drawer-activate="{default: true, xl: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'200px', '300px': '320px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_body', xl: '#kt_header_nav_wrapper'}">
+								<!--begin::Mobile menu close-->
+								<div id="kt_menu_close" class="btn btn-icon btn-active-light-primary btn-active-icon-primary d-xl-none">
+									<span class="svg-icon svg-icon-1">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+											<path d="M19.853 19.147 12.707 12l7.146-7.147a.5.5 0 0 0-.707-.707L12 11.293 4.853 4.147a.5.5 0 0 0-.707.707L11.293 12l-7.147 7.146a.5.5 0 1 0 .707.707L12 12.707l7.146 7.147a.498.498 0 0 0 .707 0 .5.5 0 0 0 0-.707z"/>
+										</svg>
+									</span>
+								</div>
+								<!--end::Mobile menu close-->
+								<!--begin::Menu-->
+								<div class="menu menu-column menu-xl-row  menu-white menu-state-title-primary my-5 mt-16 my-xl-0 align-items-stretch" id="kt_header_menu" data-kt-menu="true">
+									<div class="menu-item me-xl-1">
+										<a class="menu-link" href="#country-data" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">
+											<span class="menu-title">Data</span>
+										</a>
+									</div>
+									<div class="menu-item me-xl-1">
+										<a class="menu-link" href="#thematic-datasets" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">
+											<span class="menu-title">API</span>
+										</a>
+									</div>
+									<div class="menu-item me-xl-1">
+										<a class="menu-link" href="#ml-lab" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">
+											<span class="menu-title">Publications</span>
+										</a>
+									</div>
+									
+									
+									<!-- <div class="menu-item me-xl-1">
+										<a href="#" class="btn btn-primary btn-xs" id="kt_drawer_login_toggle">																							
+											<span class="menu-title">Login</span>
+										</a>
+									</div> -->
+								</div>
+								<!--end::Menu-->								
+							</div>
+							<!--begin::Header menu toggle-->
+							<div class="d-flex align-items-stretch flex-shrink-0">								
+								<div class="d-flex align-items-center d-xl-none" title="Show header menu">
+									<div class="btn btn-icon btn-icon-white btn-active-light-primary btn-active-icon-primary w-30px h-30px w-md-40px h-md-40px" id="kt_header_menu_mobile_toggle">
+										<span class="svg-icon svg-icon-1">											
+											<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
+												<path fill="currentColor" d="M485.883 425.832H26.781c-4.971 0-9-4.029-9-9s4.029-9 9-9h459.102c4.971 0 9 4.029 9 9S490.854 425.832 485.883 425.832zM485.883 264.742H26.781c-4.971 0-9-4.029-9-9s4.029-9 9-9h459.102c4.971 0 9 4.029 9 9S490.854 264.742 485.883 264.742zM485.883 103.653H26.781c-4.971 0-9-4.029-9-9s4.029-9 9-9h459.102c4.971 0 9 4.029 9 9S490.854 103.653 485.883 103.653z"/>
+											</svg>
+										</span>
+									</div>
+								</div>									
+							</div>
+							<!--end::Header menu toggle-->
+						</div>
+						<!--end::Menu wrapper-->
+					</div>
+				</div>
+			</header>	
+
+			<!--begin::Hero Section-->
+			<div class="hero landing-dark-bg mb-0">							
+				<div id="hero01" class="d-flex flex-column flex-center w-100 min-h-350px min-h-lg-400px px-9">						
+					<div class="text-center mb-20 py-10 py-lg-20">						
+						<h1 class="text-white fs-2x fs-lg-4x mb-4">Welcome to the ESCWA<br>Skills Monitor</h1>
+						<div class="text-white lh-base fs-4 fs-3">Your guide to to the ESCWA Skills Monitor</div>
+					</div>
+				</div>				
+				<video class="video-fluid overlay" autoplay="" loop="" muted="">
+					<source src="assets/media/video.mp4" type="video/mp4">
+				</video>
+			</div>
+			<!--end::Hero Section-->
+
+			<!--begin::Main stats-->
+			<div class="container-fluid container-xl position-relative mt-n20 pb-16" style="z-index:10;">
+				<div class="info_cards d-flex flex-wrap justify-content-between align-items-stretch gy-4">
+						<div class="card bg-light-danger">							
+							<div class="card-body p-4 d-flex flex-column text-center">
+								<div class=" pb-1">
+											
+
+												<a href="#" title="Core statistics" data-bs-toggle="collapse" data-bs-target="#collapse_regional" aria-expanded="false" aria-controls="collapse_country_1" class="btn w-375px ">
+												<span class="svg-icon svg-icon-1"><img src="assets/images/region-01.svg" width="50px" alt=""/></span>
+												<div><span class="fs-1">Regional Analytics</span></div>
+											</a>
+											
+											<div data-bs-parent="#smt_regional" class="collapse" id="collapse_regional">
+												<div class="asidenav_content">
+													<span class="d-block text-muted fw-bold pb-4 mt-20 pt-20"></span>
+													<select class="form-select" data-placeholder="Select country" id="">
+								<option value="lbn" selected="selected">My current occupation/field</option>
+								<option value="">Managers</option>
+								<option value="">Professionals</option>
+								<option value="">Technicians and associate professionals</option>
+								<option value="">Clerical Support Workers</option>
+								<option value="">Service And Sales Workers</option>
+								<option value="">Craft And Related Trades Workers</option>
+								<option value="">Plant And Machine Operators And Assemblers</option>
+							
+							</select>
+												</div>
+											</div>
+											
+
+											
+											
+										</div>
+							</div>
+							
+						</div>
+						<div class="card bg-light-warning">							
+							<div class="card-body p-4 d-flex flex-column text-center">
+								<div class=" pb-1 ">
+														
+								<a href="#" title="Core statistics" data-bs-toggle="collapse" data-bs-target="#collapse_regional_1" aria-expanded="false" aria-controls="collapse_country_1" class="btn w-375px ">
+												<span class="svg-icon svg-icon-1"><img src="assets/images/countrysvg-01.svg" width="50px" alt=""/></span>
+												<div><span class="fs-1">Country Profiling</span></div>
+											</a>											
+										
+												</div>
+											
+
+											<div data-bs-parent="#smt_regional " class="collapse" id="collapse_regional_1">
+												<div class="asidenav_content">
+													<span class="d-block text-muted fw-bold pb-4 mt-20 pt-20"></span>
+												
+													<select class="form-select" data-placeholder="Select country" id="select3_country">
+								<option value="lbn" selected="selected">Select Country</option>
+								<option value="arab_region">Arab region</option>
+								<option value="dza">Algeria</option>
+								<option value="bhr">Bahrain</option>
+								<option value="com">Comoros</option>
+								<option value="dji">Djibouti</option>
+								<option value="egy">Egypt</option>
+								<option value="irq">Iraq</option>
+								<option value="jor">Jordan</option>
+								<option value="kwt">Kuwait</option>
+								<option value="lbn" >Lebanon</option>
+								<option value="lby">Libya</option>
+								<option value="mrt">Mauritania</option>
+								<option value="mar">Morocco</option>
+								<option value="omn">Oman</option>
+								<option value="pse">State of Palestine</option>
+								<option value="qat">Qatar</option>
+								<option value="sau">Saudi Arabia</option>
+								<option value="som">Somalia</option>
+								<option value="sdn">Sudan</option>
+								<option value="syr">Syrian Arab Republic</option>
+								<option value="tun">Tunisia</option>
+								<option value="are">United Arab Emirates</option>
+								<option value="yem">Yemen</option>
+							</select>
+												</div>
+											</div>
+							</div>
+							
+						</div>
+					<div class="card bg-light-success">							
+							<div class="card-body p-4 d-flex flex-column text-center">
+								<div class=" pb-20 pt-20 ">
+														
+								<a href="#" title="Core statistics" data-bs-toggle="collapse" data-bs-target="#collapse_regional_1" aria-expanded="false" aria-controls="collapse_country_1" class="btn w-375px ">
+												<span class="svg-icon svg-icon-1"><img src="assets/images/skills-01.svg" width="50px" alt=""/></span>
+												<div><span class="fs-1">Skills Decomposition</span></div>
+											</a>											
+										
+												</div>
+											
+
+											<div data-bs-parent="#smt_regional " class="collapse" id="collapse_regional_1">
+												<div class="asidenav_content">
+													<span class="d-block text-muted fw-bold pb-4 "></span>
+												
+																							<nav >
+  <div class="nav nav-tabs text-center" id="nav-tab" role="tablist">
+    <button class="nav-link bg-opacity-20 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Skills Profiler</button>
+    <button class="nav-link bg-opacity-50" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Compare Jobs</button>
+   
+  </div>
+</nav>
+<div class="tab-content mb-3" id="nav-tabContent">
+  <div class="tab-pane fade show active mb-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><div id="kt_aside_header" class="aside-header">
+							<select class="form-select" data-placeholder="Select country" id="select2_country">
+								<option value="lbn" selected="selected">Select Country</option>
+								<option value="arab_region">Arab region</option>
+								<option value="dza">Algeria</option>
+								<option value="bhr">Bahrain</option>
+								<option value="com">Comoros</option>
+								<option value="dji">Djibouti</option>
+								<option value="egy">Egypt</option>
+								<option value="irq">Iraq</option>
+								<option value="jor">Jordan</option>
+								<option value="kwt">Kuwait</option>
+								<option value="lbn" >Lebanon</option>
+								<option value="lby">Libya</option>
+								<option value="mrt">Mauritania</option>
+								<option value="mar">Morocco</option>
+								<option value="omn">Oman</option>
+								<option value="pse">State of Palestine</option>
+								<option value="qat">Qatar</option>
+								<option value="sau">Saudi Arabia</option>
+								<option value="som">Somalia</option>
+								<option value="sdn">Sudan</option>
+								<option value="syr">Syrian Arab Republic</option>
+								<option value="tun">Tunisia</option>
+								<option value="are">United Arab Emirates</option>
+								<option value="yem">Yemen</option>
+							</select>
+						</div>
+
+	
+	 <div class="tab-pane fade show active mb-10 mt-4" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><div id="kt_aside_header" class="aside-header">
+							<select class="form-select" data-placeholder="Select country" id="select3_country">
+								<option value="lbn" selected="selected">Find an ISCO level/title</option>
+								<option value="">Managers</option>
+								<option value="">Professionals</option>
+								<option value="">Technicians and associate professionals</option>
+								<option value="">Clerical Support Workers</option>
+								<option value="">Service And Sales Workers</option>
+								<option value="">Craft And Related Trades Workers</option>
+								<option value="">Plant And Machine Operators And Assemblers</option>
+							
+							</select>
+						</div>
+	  </div>	</div>
+	  	
+										
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+	 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><div id="kt_aside_header" class="aside-header">
+							<select class="form-select" data-placeholder="Select country" id="select3_country">
+								<option value="lbn" selected="selected">My current occupation/field</option>
+								<option value="">Managers</option>
+								<option value="">Professionals</option>
+								<option value="">Technicians and associate professionals</option>
+								<option value="">Clerical Support Workers</option>
+								<option value="">Service And Sales Workers</option>
+								<option value="">Craft And Related Trades Workers</option>
+								<option value="">Plant And Machine Operators And Assemblers</option>
+							
+							</select>
+						</div></div>
+	<div class="tab-pane fade show active mb-11 mt-4" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><div id="kt_aside_header" class="aside-header">
+							<select class="form-select" data-placeholder="Select country" id="select3_country">
+								<option value="lbn" selected="selected">My desired occupation/field</option>
+								<option value="">Managers</option>
+								<option value="">Professionals</option>
+								<option value="">Technicians and associate professionals</option>
+								<option value="">Clerical Support Workers</option>
+								<option value="">Service And Sales Workers</option>
+								<option value="">Craft And Related Trades Workers</option>
+								<option value="">Plant And Machine Operators And Assemblers</option>
+							
+							</select>
+						</div></div>
+	
+												</div>
+											</div>
+							</div>
+							
+						</div>
+						
+						
+						
+												
+				</div>
+			</div>	</div>
+							
+						</div></div>
+			<!--end::Main stats-->
+
+			<!--begin::Portals-->
+			
+		<!--begin::Computing and machine learning lab-->
+			<section class="pt-16 pb-20">
+				<div class="container-fluid container-xl ">
+					<div class="text-center mb-6 mb-lg-12 mx-auto w-xl-600px">
+						<h3 class="fw-bolder fs-2qx flex-column mb-2" id="ml-lab" data-kt-scroll-offset="{default: 100}">About ESM</h3>
+						<div class="fs-5 text-muted">
+A small details should display here</div>
+					</div>	
+					<div class="row gy-4">
+						<div class="col-lg-4">
+							<div class="card infobox bg-success bg-opacity-20 h-100">
+								<div class="card-body h-100 d-flex flex-column">
+									<img width="100px;" class="mb-10" src="assets/images/futures-01.svg">
+									<h3 class="fs-3 fw-bold text-gray-900 pb-2">Our Future of Work Initiative</h3>
+									<h6 class="fs-6 text-gray-700 pb-4">Utilizing Big Data & Machine Learning to understand the regional Labour Market</h6>	
+									<p class="fs-6 text-gray-700 pb-4">
+We collect real-time information from more than 100 regional online Job posting platforms. With millions of job Posting observations, we can understand the region's labor market demand and track the relevance of skills and employment prospects.</p>	
+									<div class="d-flex align-items-end justify-content-end h-100">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card infobox bg-info bg-opacity-20 h-100">
+								<div class="card-body h-100 d-flex flex-column">
+									<img width="100px;" class="mb-10" src="assets/images/data-01.svg">
+									<h3 class="fs-3 fw-bold text-gray-900 pb-2">Data & methodology</h3>
+									<h6 class="fs-6 text-gray-700 pb-4">Explore the online job market</h6>	
+									<p class="fs-6 text-gray-700 pb-4">We use a custom-built data platform to analyze the online job market. Our data platform contains a mix of technologies that work in tandem to collect, clean, standardize, and analyze data.</p>								
+									<div class="d-flex align-items-end justify-content-end h-100">
+									
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card infobox bg-warning bg-opacity-20 h-100">
+								<div class="card-body h-100 d-flex flex-column">									
+									<img width="100px;" class="mb-10" src="assets/images/API-01.svg">
+									<h3 class="fs-3 fw-bold text-gray-900 pb-2">Integration & API</h3>
+									<h6 class="fs-6 text-gray-700 pb-4">Integrate our findings in your reporting in real-time</h6>	
+									<p class="fs-6 text-gray-700 pb-4">The Future of Work API services allows users to connect to our database and access the latest regional labor market data. The service offers skills and job aggregations in a timely fashion enabling users to utilize our Big Data and Machine Learning resources to understand the job market..</p>								
+									<div class="d-flex align-items-end justify-content-end h-100">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--end::Computing and machine learning lab-->
+
+			<!--end::Portals-->
+			<!--begin::Country Profiles-->
+			<section class="pb-10">
+				<div class="container-fluid container-xl ">
+					<div class="text-center mb-6 mb-lg-12 mx-auto w-xl-600px">
+						<h3 class="fw-bolder fs-2qx flex-column mb-2" id="country-data" data-kt-scroll-offset="{default: 100}">Explore country Profile</h3>
+						
+					</div>								
+					<div class="countrieslist d-flex flex-wrap flex-center justify-content-center align-items-stretch mx-auto w-xl-900px">
+						<div>
+							<a href="Content?country=arab_region" class="d-flex flex-column align-items-center" title="Arab region thematic profile">		
+								<img src="assets/media/flags-circle/arab_region.svg" />
+								<div class="countriesnames">Arab region</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=dza" class="d-flex flex-column align-items-center" title="Algeria country profile">		
+								<img src="assets/media/flags-circle/dza.svg" />
+								<div class="countriesnames">Algeria</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=bhr" class="d-flex flex-column align-items-center" title="Bahrain country profile">		
+								<img src="assets/media/flags-circle/bhr.svg" />
+								<div class="countriesnames">Bahrain</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=com" class="d-flex flex-column align-items-center" title="Comoros country profile">		
+								<img src="assets/media/flags-circle/com.svg" />
+								<div class="countriesnames">Comoros</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=dji" class="d-flex flex-column align-items-center" title="Djibouti country profile">		
+								<img src="assets/media/flags-circle/dji.svg" />
+								<div class="countriesnames">Djibouti</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=egy" class="d-flex flex-column align-items-center" title="Egypt country profile">		
+								<img src="assets/media/flags-circle/egy.svg" />
+								<div class="countriesnames">Egypt</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=irq" class="d-flex flex-column align-items-center" title="Iraq country profile">		
+								<img src="assets/media/flags-circle/irq.svg" />
+								<div class="countriesnames">Iraq</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=jor" class="d-flex flex-column align-items-center" title="Jordan country profile">		
+								<img src="assets/media/flags-circle/jor.svg" />
+								<div class="countriesnames">Jordan</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=kwt" class="d-flex flex-column align-items-center" title="Kuwait country profile">		
+								<img src="assets/media/flags-circle/kwt.svg" />
+								<div class="countriesnames">Kuwait</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=lbn" class="d-flex flex-column align-items-center" title="Lebanon country profile">		
+								<img src="assets/media/flags-circle/lbn.svg" />
+								<div class="countriesnames">Lebanon</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=lby" class="d-flex flex-column align-items-center" title="Libya country profile">		
+								<img src="assets/media/flags-circle/lby.svg" />
+								<div class="countriesnames">Libya</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=mrt" class="d-flex flex-column align-items-center" title="Mauritania country profile">		
+								<img src="assets/media/flags-circle/mrt.svg" />
+								<div class="countriesnames">Mauritania</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=mar" class="d-flex flex-column align-items-center" title="Morocco country profile">		
+								<img src="assets/media/flags-circle/mar.svg" />
+								<div class="countriesnames">Morocco</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=omn" class="d-flex flex-column align-items-center" title="Oman country profile">		
+								<img src="assets/media/flags-circle/omn.svg" />
+								<div class="countriesnames">Oman</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=pse" class="d-flex flex-column align-items-center" title="State of Palestine country profile">		
+								<img src="assets/media/flags-circle/pse.svg" />
+								<div class="countriesnames">State of Palestine</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=qat" class="d-flex flex-column align-items-center" title="Qatar country profile">		
+								<img src="assets/media/flags-circle/qat.svg" />
+								<div class="countriesnames">Qatar</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=sau" class="d-flex flex-column align-items-center" title="Saudi Arabia country profile">		
+								<img src="assets/media/flags-circle/sau.svg" />
+								<div class="countriesnames">Saudi Arabia</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=som" class="d-flex flex-column align-items-center" title="Somalia country profile">		
+								<img src="assets/media/flags-circle/som.svg" />
+								<div class="countriesnames">Somalia</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=sdn" class="d-flex flex-column align-items-center" title="Sudan country profile">		
+								<img src="assets/media/flags-circle/sdn.svg" />
+								<div class="countriesnames">Sudan</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=syr" class="d-flex flex-column align-items-center" title="Syrian Arab Republic country profile">		
+								<img src="assets/media/flags-circle/syr.svg" />
+								<div class="countriesnames">Syrian Arab Republic</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=tun" class="d-flex flex-column align-items-center" title="Tunisia country profile">		
+								<img src="assets/media/flags-circle/tun.svg" />
+								<div class="countriesnames">Tunisia</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=are" class="d-flex flex-column align-items-center" title="United Arab Emirates country profile">		
+								<img src="assets/media/flags-circle/are.svg" />
+								<div class="countriesnames">United Arab Emirates</div>
+							</a>
+						</div>
+						<div>
+							<a href="Content?country=yem" class="d-flex flex-column align-items-center" title="Yemen country profile" title="Yemen country profile">		
+								<img src="assets/media/flags-circle/yem.svg" />
+								<div class="countriesnames">Yemen</div>
+							</a>
+						</div>
+
+					</div>						
+				</div>
+			</section>
+			<!--end::Portals-->
+
+			<!--begin::Thematic datasets-->
+			
+			<!--end::Thematic datasets-->
+
+			<!--begin::Computing and machine learning lab-->
+			
+			<!--end::Computing and machine learning lab-->
+
+			<!--begin::Policy tools-->
+			<section class=" pt-16 pb-20 bg-light">
+				<div class="filterizr container-fluid container-xl ">
+					<div class="text-center mb-6 mb-lg-12 mx-auto w-xl-600px">
+						<h3 class="fw-bolder fs-2qx flex-column mb-2" id="policy-tools" data-kt-scroll-offset="{default: 100}">Publications & Reports</h3>
+						<div class="fs-5 text-muted">
+Read our last publications
+</div>
+					</div>	
+					<!--begin::Tabs wrapper-->
+					<!-- <div class="filterizr-control d-flex flex-center mb-5 mb-lg-15">
+						<ul class="filterizr-filter nav border-transparent flex-center fs-5 fw-bold">
+							<li class="nav-item">
+								<span class="nav-link active text-gray-500 text-active-primary px-3 px-lg-6" data-filter="all">All tools</span>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-filter="cat1">Cat 1</span>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-filter="cat2">Cat 2</span>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-filter="cat3s">Cat 3</span>
+							</li>
+						</ul>
+					</div> -->
+					<!--end::Tabs wrapper-->
+					<div class="filtr-container ">
+						
+						
+						
+						<div class="col-12 filtr-item" data-category="cat1" data-sort="value">
+							<a href="https://arabsdg.unescwa.org/" target="_blank" class="card ptool">
+								<div class="card-body">
+									
+									<h3 class="fs-3 fw-bold pb-2">The Arab region may be missing the Fourth Industrial Revolution</h3>
+									
+									<p class="card-text pb-8"> Arab skills are still stuck in the past.</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-12 filtr-item" data-category="cat1" data-sort="value">
+							<a href="https://arabsdg.unescwa.org/" target="_blank" class="card ptool">
+								<div class="card-body">
+									
+									<h3 class="fs-3 fw-bold pb-2">The Arab region may be missing the Fourth Industrial Revolution</h3>
+									
+									<p class="card-text pb-8"> Arab skills are still stuck in the past.</p>
+								</div>
+							</a>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!--end::Policy tools-->
+
+			
+
+			<!--begin::Footer Section-->
+			<footer>
+			
+				<div class="landing-dark-bg pt-4">
+					<div class="container">
+						<div class="row py-8">
+							<div class="col-sm-6 text-center text-sm-start mb-8 mb-sm-0">
+								<a href="index.html">
+									<img alt="United Nations Regional Collaborative Platform" src="assets/images/escwa-tag.svg" class="h-60px h-lg-80px" />
+								</a>
+							</div>
+							<div class="col-sm-6 d-flex justify-content-center justify-content-sm-end align-items-end">
+								<a class="mx-3" href="https://twitter.com/unescwa" target="_blank"><i class="fab fa-twitter fs-3 text-white"></i></a>							
+								<a class="mx-3" href="https://www.linkedin.com/company/unescwa/" target="_blank"><i class="fab fa-linkedin fs-3 text-white"></i></a>							
+								<a class="mx-3" href="https://www.facebook.com/unescwa" target="_blank"><i class="fab fa-facebook-square fs-3 text-white"></i></a>							
+								<a class="mx-3" href="https://www.youtube.com/user/UNESCWA" target="_blank"><i class="fab fa-youtube fs-3 text-white"></i></a>						
+								<a class="mx-3" href="https://www.instagram.com/unescwa/" target="_blank"><i class="fab fa-instagram fs-3 text-white"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="landing-dark-separator"></div>
+					<div class="container">
+						<div class="d-flex flex-column flex-md-row flex-stack py-8">
+							<div class="d-flex align-items-center order-2 order-md-1">
+								<span class="mx-5 text-gray-400 pt-1">Copyright © 2022 <a href="https://www.unescwa.org/" target="_blank" class="text-white text-hover-primary">United Nations ESCWA</a></span>
+							</div>
+							<ul class="menu menu-white menu-hover-primary order-1 mb-5 mb-md-0">
+								<li class="menu-item"><a class="menu-link px-2" href="https://www.un.org/en/about-us/terms-of-use" target="_blank">Terms of use</a></li>
+								<li class="menu-item mx-2"><a class="menu-link px-2" href="https://www.un.org/en/about-us/privacy-notice" target="_blank">Privacy</a></li>
+								<li class="menu-item mx-2"><a class="menu-link px-2" href="https://www.unescwa.org/feedback" target="_blank">Feedback</a></li>
+								<li class="menu-item"><a class="menu-link px-2" href="https://www.unescwa.org/contact" target="_blank">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!--end::Footer Section-->
+
+		</div>
+
+		
+		<!--begin::Login drawer-->
+		<div id="kt_drawer_login" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="login" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'320px', 'md': '500px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_drawer_login_toggle" data-kt-drawer-close="#kt_drawer_login_close">
+			<div class="card shadow-none rounded-0 w-100">
+				<div class="card-header" id="kt_engage_demos_header">
+					<h3 class="card-title fw-bolder text-gray-700">Sign in</h3>
+					<div class="card-toolbar">
+						<button type="button" class="btn btn-sm btn-icon btn-active-color-primary h-40px w-40px me-n6" id="kt_drawer_login_close">
+							<span class="svg-icon svg-icon-2">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<path d="M19.853 19.147 12.707 12l7.146-7.147a.5.5 0 0 0-.707-.707L12 11.293 4.853 4.147a.5.5 0 0 0-.707.707L11.293 12l-7.147 7.146a.5.5 0 1 0 .707.707L12 12.707l7.146 7.147a.498.498 0 0 0 .707 0 .5.5 0 0 0 0-.707z"></path>
+								</svg>
+							</span>
+						</button>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="d-flex flex-center flex-column flex-column-fluid">
+						<div class="w-100 mx-auto">
+
+							<form class="form w-100" id="sign_in_form" action="#">
+								<div class="text-center mb-10">
+									<div class="text-gray-400 fw-bold fs-5">New Here?
+									<a href="#" class="link-primary fw-bolder">Create an account</a></div>
+								</div>
+								<div class="fv-row mb-10">
+									<label class="form-label fs-6 fw-bolder">Email</label>
+									<input class="form-control form-control-lg form-control-solid" type="text" name="email" autocomplete="off" required />
+								</div>
+								<div class="fv-row mb-10">
+									<div class="d-flex flex-stack mb-2">
+										<label class="form-label fw-bolder fs-6 mb-0">Password</label>
+										<a href="#" class="link-primary fs-6 fw-bolder">Forgot Password ?</a>
+									</div>
+									<input class="form-control form-control-lg form-control-solid" type="password" name="password" autocomplete="off" required />
+								</div>
+								<div class="text-center w-100">
+									<button type="submit" id="sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5">
+										<span class="indicator-label">Continue</span>
+										<span class="indicator-progress">Please wait...
+										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+									</button>
+								</div>
+							</form>
+							
+						</div>
+					</div>						
+				</div>
+			</div>
+		</div>
+		<!--end::Login drawer-->
+
+		<!--begin::Scrolltop-->
+		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+			<span class="svg-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
+					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
+				</svg>
+			</span>
+		</div>
+		<!--end::Scrolltop-->
+		
+		
+		
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+			
+		<script src="assets/js/custom/widgets.js"></script>
+		<script src="assets/js/custom.js"></script>
+
+		<script src="assets/js/custom/jquery.filterizr.min.js"></script>
+		
+	</body>
+</html>
